@@ -1,0 +1,51 @@
+/* Font family google link https://fonts.google.com/noto/specimen/Noto+Sans */
+@font-face {
+    font-family: 'Nato';
+    src: url('/fonts/Noto_Sans/NotoSans-Medium.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Nato';
+    src: url('/fonts/Noto_Sans/NotoSans-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Nato';
+    src: url('/fonts/Noto_Sans/NotoSans-SemiBold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Nato';
+    src: url('/fonts/Noto_Sans/NotoSans-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Nato';
+    src: url('/fonts/Noto_Sans/NotoSans-ExtraBold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 800;
+}
+@font-face {
+    font-family: 'Nato';
+    src: url('/fonts/Noto_Sans/NotoSans-Black.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 900;
+}
+
+/* Font family google link https://fonts.google.com/specimen/Montserrat?query=mon */
+@font-face {
+    font-family: 'Monserrat';
+    src: url('/fonts/Montserrat/static/Montserrat-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Monserrat';
+    src: url('/fonts/Montserrat/static/Montserrat-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 700;
+}

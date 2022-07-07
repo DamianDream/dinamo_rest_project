@@ -1,10 +1,9 @@
-.box {
-    width: 200px;
-    height: 200px;
-    background-color: tomato;
+/* Colors */
+:root {
+    --primary-clr: #0a0a0a;
+    --ff-light-clr: #fff;
+    --ff-gray-clr: #E0E0E0;
+    --ff-red-clr: #B82121;
+    --btn-clr: #B82121;
 }
-.box-green {
-    width: 200px;
-    height: 200px;
-    background-color: lime;
-}
+/* ----------------- */
