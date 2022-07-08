@@ -7,3 +7,146 @@
     --btn-clr: #B82121;
 }
 /* ----------------- */
+body {
+    background-color: var(--primary-clr);
+    color: var(--ff-light-clr);
+}
+
+.wrapper {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    width: 1244px;
+    margin: 0 auto;
+}
+
+.content {
+    flex: 1 1 auto;
+}
+.header {
+    width: 1440px;
+    height: 800px;
+    margin: 0 auto;
+    background-image: url('/images/header/header.jpg');
+    background-color: var(--primary-clr);
+}
+.header-top {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+}
+.logo__image img {
+    width: 133px;
+    height: 68px;
+    object-fit: contain;
+}
+.nav-menu {
+}
+.nav-menu__list {
+}
+.nav-menu__list li {
+    line-height: 22px;
+    text-align: center;
+    display: inline-block;
+    list-style-type: none;
+    padding: 0 30px;
+}
+.nav-menu__link {
+    font-family: 'Nato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: var(--ff-light-clr);
+    text-decoration: none;
+}
+.header-top__contacts {
+    display: flex;
+    align-items: center;
+}
+.header_top__phone {
+    font-family: 'Nato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 29px;
+    margin: 0 16px 0 0;
+}
+
+/* Иконка телефона используя супер удивительный шрифт */
+.header_top__phone i {
+    font-size: 20px;
+    margin: 0 6px 0 0;
+}
+.header_top__phone i:hover {
+    color: var(--ff-red-clr);
+}
+.header-top__social {
+    display: flex;
+    gap: 15px;
+}
+.header-top__social-instagram {
+}
+.header-top__social-facebook {
+}
+.header-top__social-tritter {
+}
+.header-intro {
+    position: absolute;
+}
+.intro {
+    margin: 104px 0 0 0;
+}
+.header-intro__body {
+    display: flex;
+    flex-direction: column;
+}
+.header-intro__title {
+    width: 18ch;
+    font-family: 'Nato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 55px;
+    line-height: 70px;
+}
+.header-intro__title_color {
+    color: var(--ff-red-clr);
+}
+.header-intro__text {
+    width: 56ch;
+    font-family: 'Nato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 25px 0 0 0;
+}
+.header-intro__btn {
+    width: 229px;
+    height: 60px;
+    border-radius: 5px;
+    font-family: 'Nato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+
+    color: var(--ff-light-clr);
+    background-color: var(--btn-clr);
+    margin: 35px 0 0 0;
+}
+
+.main {
+    min-height: 20vh;
+    background-color: var(--primary-clr);
+}
+.footer {
+    height: 188px;
+    background-color: var(--primary-clr);
+}
